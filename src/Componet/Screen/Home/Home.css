@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.main-header {
+  background-color: #7f30ff;
+  position: fixed;
+  z-index: 100000; 
+  width: 100%;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+}
+.postfranchise {
+  background-color: #a98bfd;
+  font-weight: 500;
+  color: white;
+}
+
+.section-1{
+  z-index: 1000;
+}
+.section-main h2{
+   font-weight: 700;
+   font-size: 2.3rem;
+}
+.section-main p{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.button{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid #A7A7A7;
+  padding: 8px 25px;
+
+}
+.button:hover{
+background-color: black;
+color:  white;
+transition: 1s ease all ;
+}
+.card_section{
+  border: 2px solid #FFFFFF;
+  /* height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.card_logo{
+  height: 100px !important;
+  width: 100px !important;  
+}
+.poll{
+  background-color: #a98bfd;
+  height: 100vh;
+}
+.poll-sec h2{
+  font: weight 700px;
+  font-size: 1.5rem;
+}
+.poll-sec h1{
+  
+  color: #FFFFFF;
+font-weight: bold;
+}
+.li_class{
+  line-height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.Monthly_img img{
+  height: 70vh;
+}
+.head{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.deal_card{
+  background-color: antiquewhite;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.deal_icon{
+  height: 100px;
+  width: 100px;
+  
+}
+.icon{
+  width: 100px;
+
+}
+.ion1{
+  width: 100px !important;
+}
+.deal_card h3{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.deal_card p{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.deal_card_2{
+  background-color: antiquewhite;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.deal_card_3{
+  background-color:#f9fbbd;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.deal_card_4{
+  background-color:#fcdbf7;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.franchies h2{
+  font-size: 3rem;
+  font-weight: 100;
+  font-weight: bold;
+}
+.f_t li{
+font-size:1.2rem;
+font-weight: 600;
+line-height: 2.3rem;
+
+}
+.trending_title {
+  font-size: 3rem;
+  font-weight:  bold;
+}
+.trending_card{
+  
+  height: 100%;
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 18px 0px #00000026;
+}
+.trending_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trending_icon img{
+  height: 100px;
+}
+.trending_details h2{
+  text-align: center;
+  font-size: 2rem;
+
+}
+.trending_details p{
+  text-align: center;
+  padding-top: 1rem;
+  color:#888888;
+}
+.news h2{
+  font-size: 3rem;
+font-weight: bold;
+}
+.news p{
+  padding-top: 20px;
+  color: gray;
+  font-weight: 400;
+}
+
+.btn_callback{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 1rem 4.5rem;
+  font-size: 1.2rem;
+  background-color: #8160FF;
+}
+.button_class{
+  display: flex;
+  justify-content: center;
+}
+.articles_img img{
+  height: 100%;
+  width: 100%;
+}
+.articles_details h2{
+  font-size: 1.5rem;
+}
+.articles_details{
+  padding: 2rem 1rem;
+}
+.million_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date{
+  text-align: start;
+  /* font-weight: 700; */
+  font-size: 1.3rem;
+}
+.million{
+  text-align: start;
+  /* font-weight: 700; */
+  font-size: 1.3rem;
+}
+.articles_box{
+  height: 90%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.footer{
+  background-color: #7f30ff;
+}
+.follow{
+  color: #FFFFFF;
+  font-size: 2.1rem;
+}
+.follow_icon{
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+.company{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.li_group li{
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 2rem;
+}
+.app_store h3{
+  color: #FFFFFF;
+}
+.app_store h3{
+  line-height: 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.apple_sec i{
+  color: #FFFFFF;
+  font-size: 1.7rem
+}
+.apple_detail h3{
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+.apple_detail span{
+  font-size: 0.8rem;
+}
+.main_apple{
+  background-color: black;
+  display: flex;
+  gap: 1rem;
+  border-radius: 9px;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+  align-items: center;
+}
+.scaner img{
+ height: 100%;
+ width: 100%;
+}
+
